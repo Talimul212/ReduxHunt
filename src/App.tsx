@@ -1,20 +1,11 @@
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div></div>
 
       <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          Increment
-        </button>
-        {count}
-        <button onClick={() => setCount((count) => count + 1)}>
-          Decrement
-        </button>
+        <button style={{ marginRight: "20px" }}>Increment</button>0
+        <button style={{ marginLeft: "20px" }}>Decrement</button>
       </div>
     </>
   );
